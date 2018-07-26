@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A8E4C5F920DE0EF70049DB93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4C5F820DE0EF70049DB93 /* AppDelegate.swift */; };
-		A8E4C5FB20DE0EF70049DB93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4C5FA20DE0EF70049DB93 /* ViewController.swift */; };
 		A8E4C5FE20DE0EF70049DB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E4C5FC20DE0EF70049DB93 /* Main.storyboard */; };
 		A8E4C60020DE0EF80049DB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E4C5FF20DE0EF80049DB93 /* Assets.xcassets */; };
 		A8E4C60320DE0EF80049DB93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E4C60120DE0EF80049DB93 /* LaunchScreen.storyboard */; };
 		A8E4C60E20DE0EF80049DB93 /* delegate_notificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4C60D20DE0EF80049DB93 /* delegate_notificationTests.swift */; };
 		A8E4C61920DE0EF80049DB93 /* delegate_notificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4C61820DE0EF80049DB93 /* delegate_notificationUITests.swift */; };
+		A8E4C62720DE20350049DB93 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4C62620DE20350049DB93 /* HomeVC.swift */; };
+		A8E4C62920DE20450049DB93 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4C62820DE20450049DB93 /* SettingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		A8E4C5F520DE0EF70049DB93 /* delegate_notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegate_notification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E4C5F820DE0EF70049DB93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8E4C5FA20DE0EF70049DB93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8E4C5FD20DE0EF70049DB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8E4C5FF20DE0EF80049DB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8E4C60220DE0EF80049DB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		A8E4C61420DE0EF80049DB93 /* delegate_notificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegate_notificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E4C61820DE0EF80049DB93 /* delegate_notificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delegate_notificationUITests.swift; sourceTree = "<group>"; };
 		A8E4C61A20DE0EF80049DB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E4C62620DE20350049DB93 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A8E4C62820DE20450049DB93 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				A8E4C5F820DE0EF70049DB93 /* AppDelegate.swift */,
-				A8E4C5FA20DE0EF70049DB93 /* ViewController.swift */,
 				A8E4C5FC20DE0EF70049DB93 /* Main.storyboard */,
 				A8E4C5FF20DE0EF80049DB93 /* Assets.xcassets */,
 				A8E4C60120DE0EF80049DB93 /* LaunchScreen.storyboard */,
 				A8E4C60420DE0EF80049DB93 /* Info.plist */,
+				A8E4C62620DE20350049DB93 /* HomeVC.swift */,
+				A8E4C62820DE20450049DB93 /* SettingVC.swift */,
 			);
 			path = delegate_notification;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E4C5FB20DE0EF70049DB93 /* ViewController.swift in Sources */,
+				A8E4C62720DE20350049DB93 /* HomeVC.swift in Sources */,
+				A8E4C62920DE20450049DB93 /* SettingVC.swift in Sources */,
 				A8E4C5F920DE0EF70049DB93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
